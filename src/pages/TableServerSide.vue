@@ -6,7 +6,6 @@
 
 <script>
 import VueBootstrap4Table from "vue-bootstrap4-table";
-import json_data from "./../data/table-dummy.json";
 
 export default {
   name: "App",
