@@ -11,7 +11,6 @@ export default {
   name: "App",
   data: function() {
     return {
-      TableData: json_data,
       rows: [
         {
           id: 1,
