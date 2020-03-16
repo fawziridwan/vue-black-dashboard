@@ -10,6 +10,7 @@ const Icons = () => import(/* webpackChunkName: "common" */ "@/pages/Icons.vue")
 const Maps = () => import(/* webpackChunkName: "common" */ "@/pages/Maps.vue");
 const Typography = () => import(/* webpackChunkName: "common" */ "@/pages/Typography.vue");
 const TableList = () => import(/* webpackChunkName: "common" */ "@/pages/TableList.vue");
+const TableServerSide = () => import(/* webpackChunkName: "common" */ "@/pages/TableServerSide.vue");
 
 const routes = [
   {
@@ -51,6 +52,11 @@ const routes = [
         path: "table-list",
         name: "table-list",
         component: TableList
+      },
+      {
+        path: "table-server-side",
+        name: "table-server-side",
+        component: TableServerSide
       }
     ]
   },
